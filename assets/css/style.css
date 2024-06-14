@@ -1,0 +1,254 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+:root{
+  --font-base:"poppins",sans-serif;
+  --bg-color1:#D4B08F;
+  --bg-color2:#422205;
+  --item-color:#A58B86;
+  
+}
+
+body{
+  font-family: var(--font-base);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+.navbar{
+  font-family: var(--font-base);
+  font-size: 16px;
+  font-weight: 500;
+  
+  
+  
+
+}
+
+#navbarSupportedContent{
+  font-style: bold;
+  
+  
+}
+
+.bg-dark{
+  background-color: black;
+}
+
+
+.section-padding{
+  padding-top: 20px;
+  
+  
+}
+
+ 
+ 
+
+
+
+
+   
+  /*--------------------------------------------------------------
+  start hero section
+  --------------------------------------------------------------*/
+
+  #hero{
+    background: url(../images/item1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1000;
+    
+  }
+  #hero .herobtn{
+  color: white;
+  background-color:var(--bg-color2);
+ }
+ /*--------------------------------------------------------------
+  End of hero section
+  --------------------------------------------------------------*/
+
+
+
+
+   
+  
+  
+  
+  /*--------------------------------------------------------------
+  start of about section
+  --------------------------------------------------------------*/
+
+  #about{
+    background-color: var(--bg-color1);
+  }
+  #about img{
+    
+    height: 100vh;
+  }
+  #about h1{
+    color: black;
+    font-weight: 800;
+    font-style: normal;
+   
+  }
+  #about h6{
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+   
+  }
+
+   /*--------------------------------------------------------------
+  End of about section
+  --------------------------------------------------------------*/
+
+ 
+  /*--------------------------------------------------------------
+  start of menu section
+  --------------------------------------------------------------*/
+
+  #menu{
+    background-color: var(--bg-color2);
+  }
+
+  #menu h1{
+    color: black;
+    font-weight: 800;
+    font-style: normal;
+   
+  }
+
+  #menu h6{
+    color: aqua;
+  }
+
+
+
+  #menu .card{
+    height: 8rem;
+    width: 25rem;
+    background-color: var(--item-color);
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 25px;
+  }
+
+  #menu .card-body{
+    text-align: left;
+  }
+
+  span{
+    text-align: right;
+    font-size: 15px;
+    color: var(--bg-color2);
+    font-weight: 600;
+  }
+  #menu .card-title{
+    font-weight: 700;
+  }
+
+ /*--------------------------------------------------------------
+  End of menu section
+  --------------------------------------------------------------*/
+
+#menu1{
+  background-color: var(--bg-color1);
+}
+
+#menu1 .card{
+  
+    background-color: var(--item-color);
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 30px;
+    height: 160px;
+    width: 400px;
+
+}
+#menu1 .card-title{
+  font-weight: 700;
+
+}
+
+
+
+
+
+ /*--------------------------------------------------------------
+  start of reservation section
+  --------------------------------------------------------------*/
+  #reservation{
+    background-color: var(--bg-color2);
+  }
+
+ #reservation h1{
+  color: black;
+    font-weight: 800;
+    font-style: normal;
+   
+
+ }
+ #reservation h6{
+
+  color: aqua;
+
+ }
+
+ #reservation .card{
+
+  background-color: var(--item-color);
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 30px;
+    height: 180px;
+    width: 400px;
+
+ }
+
+ #reservation .card-title{
+  font-weight: 700;
+ }
+ #reservation .container{
+  color: black;
+    font-weight: 800;
+    font-style: normal;
+   
+ }
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+  start of gallery section
+  --------------------------------------------------------------*/
+
+  #gallery{
+    background-color: var(--bg-color1);
+  }
+
+   
+  
+
+
+
+
+/*--------------------------------------------------------------
+  start of footer section
+  ------------------------------------------------------------*/
+  #footer{
+   background-image: url(../images/footer.jfif);
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+  }
